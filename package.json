@@ -1,0 +1,38 @@
+{
+  "name": "usl",
+  "displayName": "USL",
+  "description": "ParaWorld scripting language support",
+  "icon": "images/icon.png",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "*"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "keywords": [
+    "SEK",
+    "sek",
+    "Spieleentwicklungskombinat",
+    "SpieleEntwicklungsKombinat",
+    "SEK-Ost",
+    "pest",
+    "PEST",
+    "URS",
+    "Paraworld",
+    "ParaWorld"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "asseln",
+      "aliases": ["USL", "asseln"],
+      "extensions": [".usl"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "asseln",
+      "scopeName": "source.usl",
+      "path": "./syntaxes/asseln.tmLanguage.json"
+    }]
+  }
+}
