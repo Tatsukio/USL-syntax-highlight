@@ -3134,7 +3134,7 @@
 			"match": "\\bref\\b"
 		},
 		"type-builtin": {
-			"match": "\\b(bool|int|char|string|real|bitset|array|point|rect|vec3|Quat|mat4|color|procref|SHWND|TStateClassID|Filesystem|void)\\b",
+			"match": "\\b(bool|int|char|string|real|bitset|array|point|rect|vec2|vec3|vec4|Quat|mat2|mat3|mat4|color|procref|SHWND|TStateClassID|Filesystem|void)\\b",
 			"captures": {
 				"1": {
 					"name": "keyword.type.$1.cs"
